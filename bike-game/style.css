@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainConainer{
+    background-color: aqua;
+    height: 80vh;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:4fr 1fr ;
+}
+
+.container1{
+    background-color: red;
+}
+.container2{
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.handle{
+    background-color: blue;
+}
+
+.controler{
+    background-color: aquamarine;
+    
+}
+
+.buttonContainerhandle{
+    display: flex;
+    border: 1px solid white;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonContainerhandle button{
+    width: 40%;
+    height: 40px;
+}

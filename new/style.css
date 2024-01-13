@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(to right,red,yellow,blue);
+}
+
+.mainForm input[type="text"]{
+    width: 78%;
+    padding: 0.8rem;
+    font-weight: 400;
+    border-radius: 20px;
+}
+
+.mainForm input[type="submit"]{
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.todoContainer{
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    background-color: #ffffff3b;
+    color: white;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
